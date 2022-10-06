@@ -1,0 +1,36 @@
+
+
+html {background-image: url('../img/índice.2.jpg');
+background-attachment: fixed;
+width: 100vh;
+padding: 0%;}
+
+p{background-color: aqua;
+border-style: groove;
+position: relative;
+left:0%;}
+
+
+
+textarea {background-color: aqua;}
+
+
+.NombresProductos {color: rgb(44, 214, 157);
+    width: 50%;
+border: solid;
+background-color: black;}
+
+nav li { display: inline-block;
+    border-style: solid;
+    border-color: aqua;
+padding: 50px 50px 50px;
+background-color: darkcyan;
+position: relative;}
+
+.stilo-a {color: black;}
+
+.footer {position: relative;
+bottom: 0%;
+left: 500px;}
+
+img { width: 50%;}
