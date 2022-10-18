@@ -1,36 +1,110 @@
 
+/* IMPORTS */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap');
 
-html {background-image: url('../img/índice.2.jpg');
-background-attachment: fixed;
-width: 100vh;
-padding: 0%;}
+/*VARIABLES*/
 
-p{background-color: aqua;
-border-style: groove;
-position: relative;
-left:0%;}
+:root {
+    /* pallete */
+ --primary: #44FFD1;
+ --secondary: #D3B88C;
+ --light: #F4F2F3;
+ --accent: #000000;
+ 
+ /*font-sizes*/
+--text-xxl: 4.8em;
+--text-xl: 3.6em;
+--text-lg: 3.2em;
+--text-md: 2.2em;
+--text-sm: 1.6em;
+--text-xs: 1.2em;
+
+/*spacings*/
+--sp--xxl: 12rem
+--sp--xl: 8rem
+--sp--lg: 5rem
+--sp--md: 3.2rem
+--sp--sm: 1.6rem
+--sp--xs: 0.8rem
+
+}
+
+
+/* NORMALIZE */
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5% ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../img/índice.2.jpg');
+    background-attachment: fixed;
+    width: 100vh;
+    padding: 5em;
+    overflow-x: hidden;
+} 
 
 
 
-textarea {background-color: aqua;}
+.section__carrusel {
+    display: contents;
+    justify-content: center;
+}
 
 
-.NombresProductos {color: rgb(44, 214, 157);
-    width: 50%;
-border: solid;
-background-color: black;}
+p{
+    background-color: aqua;
+    border-style: groove;
+    position: relative;
+    left:0%;
+}
 
-nav li { display: inline-block;
-    border-style: solid;
-    border-color: aqua;
-padding: 50px 50px 50px;
-background-color: darkcyan;
-position: relative;}
+
+
+textarea {
+    background-color: aqua;
+}
+
+
+.NombresProductos {
+    margin-inline-end: auto;
+    color: rgb(44, 214, 157);
+    width: 100vh;
+    border: solid;
+    background-color: black;
+}
+
+
+.nav__li {
+   
+    display: inline-flex;
+   border-style: solid;
+   border-color: aqua;
+   background-color: darkcyan;
+    list-style-type: none;
+    align-items: center;
+}
+
+#li {
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+#logo {padding-left: 5px;}
 
 .stilo-a {color: black;}
 
-.footer {position: relative;
-bottom: 0%;
-left: 500px;}
+.footer {
+    position: relative;
+    bottom: 0%;
+    left: 500px;
+}
 
 img { width: 50%;}
