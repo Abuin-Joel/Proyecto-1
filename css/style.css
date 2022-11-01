@@ -45,9 +45,9 @@ html{
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url('../img/índice.2.jpg');
+
     background-attachment: fixed;
-    width: 100vh;
-    padding: 5em;
+    padding: 9em 2em 0;
     overflow-x: hidden;
 } 
 
@@ -74,32 +74,65 @@ textarea {
 
 
 .NombresProductos {
-    margin-inline-end: auto;
     color: rgb(44, 214, 157);
     width: 100vh;
     border: solid;
     background-color: black;
 }
 
+.header {
+    background-color: darkcyan;
+    position: fixed;
+    height: 8em;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+
 
 .nav__li {
    
-    display: inline-flex;
+    display:flex;
+    justify-content: space-between;
    border-style: solid;
    border-color: aqua;
    background-color: darkcyan;
     list-style-type: none;
-    align-items: center;
+
 }
 
 #li {
-    margin-right: 10px;
-    justify-content: space-around;
+    font-size: 1,8em;
+    margin-right: 1em;
+    justify-content: space-between
+    
 }
 
-#logo {padding-left: 5px;}
+.stilo-a {
+    display: flex;
+    justify-content: center;
+    margin-right: 4em;
+    color: black;
+}
 
-.stilo-a {color: black;}
+.nav__menu {display: flex;
+margin: 4em;
+list-style-type: none;}
+
+#logo {
+    padding-left: 4em;
+    line-height: 8em; 
+}
+
+#titulos {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+#subtitulos {font-size: 2em;}
+
 
 .footer {
     position: relative;
@@ -108,3 +141,9 @@ textarea {
 }
 
 img { width: 50%;}
+
+@media (min-width:500px){
+
+    body {background-color: #44FFD1;}
+}
+  

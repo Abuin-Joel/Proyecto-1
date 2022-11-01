@@ -1,0 +1,48 @@
+.header {
+  background-color: darkcyan;
+  position: fixed;
+  height: 8em;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+}
+.header .nav__li {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: aqua;
+  background-color: darkcyan;
+  list-style-type: none;
+}
+.header .nav__li #li {
+  font-size: 1, 8em;
+  margin-right: 1em;
+  justify-content: space-between;
+}
+.header .nav__li .stilo-a {
+  display: flex;
+  justify-content: center;
+  margin-right: 4em;
+  color: black;
+}
+.header .nav__li .nav__menu {
+  display: flex;
+  margin: 4em;
+  list-style-type: none;
+}
+.header #logo {
+  padding-left: 4em;
+  line-height: 8em;
+}
+
+body {
+  color: blue;
+}
+
+#titulos {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+/*# sourceMappingURL=translated.css.map */

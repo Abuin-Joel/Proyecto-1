@@ -2,9 +2,11 @@
 <html lang="en">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">">
 
-    <link rel="stylesheet" href="./hindex.css/style.css">
+    <link rel="stylesheet" href="./index.css/style.css">
+
 <head>
-    <link rel="shortcut icon" href="./img/icono.jpg" type="image/x-icon">
+    
+        <link rel="shortcut icon" href="./img/icono.jpg" type="image/x-icon">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,43 +16,41 @@
 <body>
     
 
-    <header> 
+    <header class="header"> 
        
-        <nav class="navbar navbar-dark bg--primary">
-                
-            <a href="./img/icono.jpg">
-                <img src="./img/icono.jpg" alt="icono">
-            </a>
+        <nav class="nav__li">
+              
+                <div id="logo"> <img src="./img/icono.jpg"> </div> 
 
-            <li id="li">
-                <a class="stilo-a" href="inicio.html"> Inicio</a>
-            </li>
-            <li>
-                <a class="stilo-a" href="nosotros.html">Nosotros</a>
-            </li>
-            <li id="li">
-                <a class="stilo-a" href="productos.html"> Productos</a>
-            </li>
-            <li id="li">
-                <a class="stilo-a" href="instagram.html">Instagram</a>
-            </li>
-            <li id="li">
-                <a class="stilo-a" href="Contacto.html"> Contacto</a>
-            </li>
-       
-          </nav>
-   
-        
+            <ul class="nav__menu">
 
-        </nav>       
+                <li id="li">
+                    <a class="stilo-a" href="index.html"> Inicio</a>
+                </li>
+
+                <li id="li">
+                    <a class="stilo-a" href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li id="li">
+                    <a class="stilo-a" href="productos.html"> Productos</a>
+                </li>
+
+                <li id="li">
+                    <a class="stilo-a" href="instagram.html">Instagram</a>
+                </li>
+
+                <li id="li">
+                    <a class="stilo-a" href="Contacto.html"> Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+                   
     </header>
-    
-         <h2 class="stilo-a">Contacto</h2>
 
-        
-
-            <br><br><br><br>
-
+         <h2 id="titulos">Contacto</h2>
 
 
     <form action="" method="post">
@@ -62,7 +62,7 @@
 
                     <input type="email" name="email" id="email">
 
-            <h3>Te dejamos un espacio para que nos brindes tu opinion sobre que podemos mejorar, muchas gracias</h3>
+            <h3 id="subtitulos">Te dejamos un espacio para que nos brindes tu opinion sobre que podemos mejorar, muchas gracias</h3>
 
         <textarea name="Observaciones" id="Observaciones" cols="30" rows="10"></textarea>
                     <input type="button" value="enviar">
